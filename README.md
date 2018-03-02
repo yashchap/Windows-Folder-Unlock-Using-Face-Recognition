@@ -9,3 +9,9 @@ Steps to Lock any file in your windows system:
 5) it will create a folder named Locker. Put all your files or folder in it.
 6) Now lock all your important file with your unique face identity. 
 
+Requirements: 
+1) Any windows Os
+2) Python 3+
+3) OpenCv - for Face detection and Face recognition.
+
+
