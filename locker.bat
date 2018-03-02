@@ -37,11 +37,12 @@ goto End
 :UNLOCK
 
 echo Enter password to Unlock folder
-C:\ProgramData\Anaconda3\python.exe "F:\Projects & Internship\Fusion R&D\Yash_branch\Face Recognition\Face recognition.py" > Output
+SET PASS=yash
+C:\ProgramData\Anaconda3\python.exe "%CD%\Face_Recognition_Script\Face recognition.py" %PASS%> Output
 SET /p MYVAR=<Output
-if %MYVAR%==yash goto DONE
+if %MYVAR%==%PASS% goto DONE
 for /f "tokens=*" %%a in (Output) do (
-  if %%a==yash goto DONE
+  if %%a==%PASS% goto DONE
 )
 goto FAIL
 
@@ -59,7 +60,7 @@ goto End
 pause
 echo Invalid password
 
-goto end
+goto End
 
 :MDLOCKER
 
