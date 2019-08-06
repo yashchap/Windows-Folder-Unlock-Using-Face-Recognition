@@ -1,7 +1,7 @@
 # Windows-Folder-Unlock-Using-Face-Recognition
 Unlock any folder using face recognition
 
-[video demo](https://www.linkedin.com/posts/yashchap_tired-of-hiding-your-files-in-windows-use-activity-6375303229969915904-SWH)<br>
+[video demo](https://www.linkedin.com/posts/yashchap_tired-of-hiding-your-files-in-windows-use-activity-6375303229969915904-SWH-)<br>
 Steps to Lock any file in your windows system:
 1) Download this repository.
 2) Time to train your face. Run face recognition.py script. command python 'Face Recognition.py' -train
